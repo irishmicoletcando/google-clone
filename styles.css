@@ -78,3 +78,9 @@ body {
   border: 1px solid #DADCE0;
   cursor: pointer
 }
+
+@media (max-width: 400px) {
+  #search {
+    width: 300px;
+  }
+}
