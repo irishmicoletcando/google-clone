@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -4px;
+}
+
+.google-title {
+  margin-bottom: 1.5em;
+}
+
+.blue-title, .red-title, .yellow-title, .green-title {
+  font-size: 5rem;
+}
+
+.blue-title {
+  color: #4284F5;
+}
+
+.red-title {
+  color: #EA4234;
+}
+
+.yellow-title {
+  color: #FBBC05;
+
+}
+
+.green-title {
+  color: #35A852;
+}
+
+#search {
+  width: 500px;
+  border: 1px solid #DEE1E4;
+  border-radius: 20px;
+  padding: 0.75em;
+  outline: none;
+}
+
+#search:hover {
+  cursor: text;
+  box-shadow: 5px 5px 25px #E1E1E0;
+}
+
+.buttons-google {
+  display: inline;
+}
+
+.btn-google {
+  background-color: #F9F9FB;
+  color: #3E4344;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  margin: 2em auto;
+  padding: 0.5em 1.5em;
+  border: 1px solid #F9F9FB;
+}
+
+.btn-search {
+  margin-right: 1em;
+}
+
+.btn-google:hover {
+  border: 1px solid #DADCE0;
+  cursor: pointer
+}
